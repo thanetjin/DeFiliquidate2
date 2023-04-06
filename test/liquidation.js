@@ -1,5 +1,5 @@
-const { expect } = require("chai");
 const { network, ethers } = require("hardhat");
+const { expect } = require("chai");
 const { BigNumber, utils } = require("ethers");
 const { writeFile } = require("fs");
 

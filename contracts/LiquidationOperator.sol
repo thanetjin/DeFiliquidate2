@@ -219,7 +219,7 @@ contract LiquidationOperator is IUniswapV2Callee {
     }
 
     // TODO: add a `receive` function so that you can withdraw your WETH
-    //   *** Your code here ***
+    
     receive() external payable {}
     // END TODO
 
