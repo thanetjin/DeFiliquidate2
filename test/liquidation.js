@@ -11,7 +11,7 @@ describe("Liquidation", function () {
         {
           forking: {
             jsonRpcUrl: process.env.ALCHE_API,
-            blockNumber: 11946807,
+            blockNumber: 12489619,
           },
         },
       ],
@@ -56,7 +56,7 @@ describe("Liquidation", function () {
     const expectedLiquidationEvents = liquidationReceipt.logs.filter(
       (v) =>
         v.topics[3] ===
-        "0x00000000000000000000000063f6037d3e9d51ad865056bf7792029803b6eefd"
+        "0x00000000000000000000000059ce4a2ac5bc3f5f225439b2993b86b42f6d3e9f"
     );
 
     expect(
