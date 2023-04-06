@@ -228,7 +228,7 @@ contract LiquidationOperator is IUniswapV2Callee {
         // TODO: implement your liquidation logic
 
         // 0. security checks and initializing variables
-        //    *** Your code here ***
+        
 
         // 1. get the target user account data & make sure it is liquidatable
 
