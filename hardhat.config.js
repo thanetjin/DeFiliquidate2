@@ -1,4 +1,5 @@
 require("@nomiclabs/hardhat-waffle");
+require("dotenv").config();
 
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
@@ -17,7 +18,7 @@ module.exports = {
       gasPrice: 0,
       initialBaseFeePerGas: 0,
       accounts: {
-        mnemonic: "swap swap swap swap swap swap swap swap swap swap swap swap"
+        mnemonic: "swap swap swap swap swap swap swap swap swap swap swap swap",
       },
     },
   },
@@ -26,11 +27,11 @@ module.exports = {
     settings: {
       optimizer: {
         enabled: true,
-        runs: 200
-      }
-    }
+        runs: 200,
+      },
+    },
   },
   mocha: {
-    timeout: 600000
+    timeout: 600000,
   },
 };
